@@ -11,7 +11,7 @@ window.onscroll = () => {
     }
 } 
 
-fetch('http://localhost:3000/data').then(function(response) {
+fetch('product.json').then(function(response) {
   return response.json();
 }).then(function(json) {
   let products = json;
